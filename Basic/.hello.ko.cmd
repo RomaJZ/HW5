@@ -1,0 +1,1 @@
+cmd_/home/parallels/Desktop/hellofromkernel2-master/basic/hello.ko := ccache arm-eabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/parallels/Desktop/hellofromkernel2-master/basic/hello.ko /home/parallels/Desktop/hellofromkernel2-master/basic/hello.o /home/parallels/Desktop/hellofromkernel2-master/basic/hello.mod.o ;  true
